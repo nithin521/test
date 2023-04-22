@@ -1,0 +1,24 @@
+input {
+  padding: 10px 20px;
+  border-radius: 6px;
+  width: 400px;
+  outline: 0;
+}
+.body {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.wrap {
+  display: grid;
+  place-items: center;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+body {
+  background-image: linear-gradient(270deg, lightblue, red);
+}
